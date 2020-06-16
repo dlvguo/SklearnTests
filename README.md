@@ -6,7 +6,6 @@
 1.  [读取电费回收数据](https://github.com/dlvguo/SklearnTests/blob/master/Test1/test1-1.py)
 
 2.  电费回收数据预处理
-   - [决策树](https://github.com/dlvguo/SklearnTests/blob/master/Test1/test1-3-1.py)
    - [电费回收数据规范化](https://github.com/dlvguo/SklearnTests/blob/master/Test1/test1-2a.py)
    - [电费回收数据特征数据提取方案1](https://github.com/dlvguo/SklearnTests/blob/master/Test1/test1-2b1.py)
      使用sklearn.feature_selection.VarianceThreshold：通过计算特征值的方差来提取特征，并通过variances_属性，查看各个特征的方差。
