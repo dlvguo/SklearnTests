@@ -47,4 +47,4 @@
 
 ## [实验4 基于Sklearn的关联规则分析](https://github.com/dlvguo/SklearnTests/tree/master/Test4)
 
-Sklearn中没有Apriori算法，采用[Apyori](https://github.com/ymoch/apyori)类库进行计算。看了相关资料对数据集进行离散化，泛化成[0-9]的标签（感觉数据处理方式以及计算方式有点问题），并对不同可信度之间计算关联集。[代码链接](https://github.com/dlvguo/SklearnTests/blob/master/Test4/test4.py)
+Sklearn中没有Apriori算法，采用[Apyori](https://github.com/ymoch/apyori)类库进行计算。看了相关资料对数据集进行离散化，泛化成[0-9]的标签（感觉数据处理方式以及计算方式有点问题），并用不同可信度计算关联集。[代码链接](https://github.com/dlvguo/SklearnTests/blob/master/Test4/test4.py)
