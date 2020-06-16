@@ -1,6 +1,6 @@
 import numpy as np
 
-# 实验2 第（1）步骤 读取网抢修数据数据
+# 实验2 第（1）步骤 读取网抢修数据
 
 repairPath = "../实验数据/配网抢修数据.csv"
 np.set_printoptions(precision=2, suppress=True)
