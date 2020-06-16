@@ -46,7 +46,7 @@
 
 1.  [读取移动客户数据](https://github.com/dlvguo/SklearnTests/blob/master/Test3/test3-1.py)
 
-2.  移动客户数据预处理
+2. 移动客户数据预处理
 
    - [移动客户数据规范化](https://github.com/dlvguo/SklearnTests/blob/master/Test3/test3-2a.py)
 
@@ -54,7 +54,7 @@
 
      使用sklearn.feature_selection.VarianceThreshold：通过计算特征值的方差来提取特征，并通过variances_属性，查看各个特征的方差。
 
-3.  移动客户数据聚类质量分析并计算Silhouette、S_Dbw值
+3. 移动客户数据聚类质量分析并计算Silhouette、S_Dbw值
 
    - [K均值](https://github.com/dlvguo/SklearnTests/blob/master/Test3/test3-3-1.py)
    - [EM](https://github.com/dlvguo/SklearnTests/blob/master/Test3/test3-3-2.py)
