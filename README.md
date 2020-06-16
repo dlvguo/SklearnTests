@@ -3,12 +3,16 @@
 
 ## [实验1 基于Sklearn的数据分类](https://github.com/dlvguo/SklearnTests/tree/master/Test1)
 
-1.  [读取电费回收数据](https://github.com/dlvguo/SklearnTests/blob/master/Test1/test1-1.py)
-2.  电费回收数据预处理
+1. [读取电费回收数据](https://github.com/dlvguo/SklearnTests/blob/master/Test1/test1-1.py)
+
+2. 电费回收数据预处理
+
    - [电费回收数据规范化](https://github.com/dlvguo/SklearnTests/blob/master/Test1/test1-2a.py)
+
    - [电费回收数据特征数据提取方案1](https://github.com/dlvguo/SklearnTests/blob/master/Test1/test1-2b1.py)：使用sklearn.feature_selection.VarianceThreshold：通过计算特征值的方差来提取特征，并通过variances_属性，查看各个特征的方差。
    - [电费回收数据特征数据提取方案2](https://github.com/dlvguo/SklearnTests/blob/master/Test1/test1-2b2.py)：使用sklearn.feature_selection.GenericUnivariateSelec函数进行特征选择，可以设置不同的策略来进行单变量特征选择，也可以同时超参数调优选择最佳	单变量选择策略。该评估方法需要设置Target值，将IS_BAD（是否为欠费用户）设为Target值，计算各个特征值的分数。
-3.  电费回收数据计算查准率、查全率、混淆矩阵与运行时间
+
+3. 电费回收数据计算查准率、查全率、混淆矩阵与运行时间
 
    - [决策树](https://github.com/dlvguo/SklearnTests/blob/master/Test1/test1-3-1.py)
    - [随机森林](https://github.com/dlvguo/SklearnTests/blob/master/Test1/test1-3-2.py)
