@@ -3,7 +3,7 @@ from sklearn import preprocessing
 from sklearn.feature_selection import chi2
 from sklearn.feature_selection import GenericUnivariateSelect
 
-# 实验1 第（2）b步骤2使用sklearn.feature_selection.GenericUnivariateSelec进行特征值选择
+# 实验1 第（2）b步骤2  使用sklearn.feature_selection.GenericUnivariateSelec进行特征值选择
 
 eleRecPath = "../实验数据/电费回收数据.csv"
 # 设置numpy的小数点类型以及禁用科学计数法
