@@ -24,7 +24,6 @@
 2. 配网抢修数据预处理
 
    - [配网抢修数据规范化](https://github.com/dlvguo/SklearnTests/blob/master/Test2/test2-2a.py)
-
    - [配网抢修数据特征数据提取方案](https://github.com/dlvguo/SklearnTests/blob/master/Test2/test2-2b.py)：使用sklearn.feature_selection.GenericUnivariateSelec函数进行特征选择，可以设置不同的策略来进行单变量特征选择，也可以同时超参数调优选择最佳单变量选择策略。
 
 3. 配网抢修数据计算MSE、RAE与运行时间
@@ -40,7 +39,6 @@
 2. 移动客户数据预处理
 
    - [移动客户数据规范化](https://github.com/dlvguo/SklearnTests/blob/master/Test3/test3-2a.py)
-
    - [移动客户特征数据提取方案](https://github.com/dlvguo/SklearnTests/blob/master/Test3/test3-2b.py)：使用sklearn.feature_selection.VarianceThreshold：通过计算特征值的方差来提取特征，并通过variances_属性，查看各个特征的方差。
 
 3. 移动客户数据聚类质量分析并计算Silhouette、S_Dbw值
