@@ -20,12 +20,10 @@
 ## [实验2  基于Sklearn的回归分析](https://github.com/dlvguo/SklearnTests/tree/master/Test2)
 
 1.  [读取配网抢修数据](https://github.com/dlvguo/SklearnTests/blob/master/Test2/test2-1.py)
-
 2. 配网抢修数据预处理
 
    - [配网抢修数据规范化](https://github.com/dlvguo/SklearnTests/blob/master/Test2/test2-2a.py)
    - [配网抢修数据特征数据提取方案](https://github.com/dlvguo/SklearnTests/blob/master/Test2/test2-2b.py)：使用sklearn.feature_selection.GenericUnivariateSelec函数进行特征选择，可以设置不同的策略来进行单变量特征选择，也可以同时超参数调优选择最佳单变量选择策略。
-
 3. 配网抢修数据计算MSE、RAE与运行时间
 
    - [随机森林](https://github.com/dlvguo/SklearnTests/blob/master/Test2/test2-3-1.py)
@@ -49,6 +47,4 @@
 
 ## [实验4 基于Sklearn的关联规则分析](https://github.com/dlvguo/SklearnTests/tree/master/Test4)
 
-Sklearn中没有Apriori算法，采用[Apyori](https://github.com/ymoch/apyori)类库进行计算。看了相关资料对数据集进行离散化，泛化成[0-9]的标签（感觉数据处理方式以及计算方式有点问题），并对不同可信度之间计算关联集计算。
-
-[代码链接](https://github.com/dlvguo/SklearnTests/blob/master/Test4/test4.py)
+Sklearn中没有Apriori算法，采用[Apyori](https://github.com/ymoch/apyori)类库进行计算。看了相关资料对数据集进行离散化，泛化成[0-9]的标签（感觉数据处理方式以及计算方式有点问题），并对不同可信度之间计算关联集计算。[代码链接](https://github.com/dlvguo/SklearnTests/blob/master/Test4/test4.py)
