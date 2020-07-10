@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Test3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../国哥的代码们/PyProject" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -183,6 +183,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592296344488</updated>
       <workItem from="1592296346659" duration="6286000" />
+      <workItem from="1592568843459" duration="21000" />
     </task>
     <servers />
   </component>
@@ -199,12 +200,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2616" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592296860631">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2616" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/3840.-121.900.1410/1920.0.1920.1050@1920.0.1920.1050" timestamp="1592296860631" />
+    <state x="2660" y="280" key="FileChooserDialogImpl" timestamp="1592568861166">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2660" y="280" key="FileChooserDialogImpl/0.0.1536.834/3840.-121.900.1410/1920.0.1920.1050@1920.0.1920.1050" timestamp="1592568861166" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1592302900262">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
